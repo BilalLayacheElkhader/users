@@ -1,4 +1,4 @@
-package com.users.users.model.services.impl;
+package com.users.users.model.services;
 
 import com.users.users.model.domain.Activity;
 import org.springframework.stereotype.Service;
