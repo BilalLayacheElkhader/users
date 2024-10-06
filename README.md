@@ -5,11 +5,11 @@ RESTful API developed with Java Spring Boot designed to manage users and activit
 
 ### FEATURES
 
-Activity and Users Management: 
+Activity and Users Management:  
 
-Create 
-Update details 
-Delete 
+Create  
+Update details   
+Delete  
 Retrieve information 
 Import/export JSON activities 
 
