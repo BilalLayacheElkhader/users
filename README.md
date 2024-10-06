@@ -14,33 +14,33 @@ Retrieve information
 Import/export JSON activities 
 
 ### Technologies Used 
-Java 17 
-Spring Boot 3.3.4 
-Spring Data JPA 
-MySQL 
-Maven 
+Java 17  
+Spring Boot 3.3.4  
+Spring Data JPA  
+MySQL  
+Maven  
 Postman  
 
-### Prerequisites 
+### Prerequisites  
 Java Development Kit (JDK) 17 or higher  
-Maven installed 
-MySQL installed and running 
+Maven installed  
+MySQL installed and running  
 
-### ENDPOINTS
-POST /appActivitats/activity         -> CREATE 
-GET /appActivitats/activity/{id}     -> READ 
-GET /appActivitats/activity/export   -> EXPORT 
-PUT /appActivitats/activity/{id}     -> UPDATE 
-POST /appActivitats/activity/import  -> IMPORTE 
+### ENDPOINTS  
+POST /appActivitats/activity         -> CREATE  
+GET /appActivitats/activity/{id}     -> READ  
+GET /appActivitats/activity/export   -> EXPORT   
+PUT /appActivitats/activity/{id}     -> UPDATE  
+POST /appActivitats/activity/import  -> IMPORTE  
 
 
-POST /appActivitats/users            -> CREATE 
-PUT /appActivitats/activity          -> UPDATE 
-GET /appActivitats/activity          -> READ 
-DELETE /appActivitats/activity       -> DELETE 
+POST /appActivitats/users            -> CREATE  
+PUT /appActivitats/activity          -> UPDATE  
+GET /appActivitats/activity          -> READ  
+DELETE /appActivitats/activity       -> DELETE   
 
-### SUPPORT
-For support, email bilal.layache@gmail.com 
+### SUPPORT  
+For support, email bilal.layache@gmail.com  
 
 
 
