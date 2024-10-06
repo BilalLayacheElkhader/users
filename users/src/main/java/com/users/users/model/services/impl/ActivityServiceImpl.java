@@ -53,10 +53,13 @@ public class ActivityServiceImpl implements ActivityService {
     public void deleteActivity(long id) {
         activityRepository.deleteById(id);
     }
+    @Override
+    public List<Activity> exportActivities() {
+        return activityRepository.findAll();
+    }
 
     @Override
-    public List<Activity> getAllActivities() {
-        List<Activity> activities = activityRepository.findAll();
-        return activities;
+    public void importActivities(List<Activity> activities) {
+        activityRepository.saveAll(activities);
     }
 }

@@ -12,6 +12,6 @@ public interface ActivityService {
     Optional<Activity> readActivity(long id);
     Activity updateActivity(long id, Activity activity);
     void deleteActivity(long id);
-
-    List<Activity> getAllActivities();
+    List<Activity> exportActivities();
+    void importActivities(List<Activity>activities);
 }
